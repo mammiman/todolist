@@ -32,7 +32,7 @@
       <hr>
       <div class="d-flex justify-content-center">
       <input type="text" v-model="newTodo" placeholder="Add Item" @keyup.enter="addTodo">
-      <button :disabled="searchTodo" @click="addTodo">Add</button>
+      <button :disabled="searchTodo" @click="addTodo" class="addbutton">Add</button>
       <button v-show="todos.length > 0" @click="deleteAll" class="delete">Delete All</button>
 
       

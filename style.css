@@ -43,3 +43,7 @@ button{
 body{
   background-color: rgb(224, 241, 255);
 }
+.addbutton{
+  background-color: rgb(13, 220, 13);
+  color: rgb(0, 0, 81);
+}
